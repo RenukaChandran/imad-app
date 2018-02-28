@@ -26,10 +26,10 @@ app.get('/test.db', function(req, res)
             res.status(500).send(err.toString());
         else
             res.send(JSON.stringify(result));
-        }
-    }
+        
+    });
     
-}
+});
  
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
