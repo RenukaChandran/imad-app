@@ -22,7 +22,7 @@ app.get('/test.db', function(req, res)
     //make sel req
     //return response
     pool.query('SELECT * FROM test', function (err,result){
-        if(err){
+        if(err)
             res.status(500).send(err.toString());
         else
             res.send(JSON.stringify(result));
