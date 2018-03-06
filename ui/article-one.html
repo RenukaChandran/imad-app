@@ -1,28 +1,25 @@
 <html>
     <head>
         <title>
-            ARTICLE ONE
+            $(title)
         </title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <style>
-            .art1{
-                max-width:800px;
-                margin:0 auto;
-                color: green;
-                font-family: sans-serif;
-                font-size: 50px;
-            }
-        </style>
+        <link href='/ui/style.css' ref='stylesheet' />
     </head>
     <body>
         <div class='art1'>
             <div>
                 <a href='/'>HOME</a>
             </div>
+            <hr>
+            <h2>
+                $(heading)
+            </h2>
+            <h3>
+                $(author)
+            </h3>
             <div>
-                <p>
-                    this is article one.this tag has predefined styling applied.it has small font size compared to the h1 tag's default styling.but i have applied changes using style tag.
-                </p>
+               $(content)
             </div>
         </div>
     </body>
