@@ -24,7 +24,7 @@ function createTemplate (dataobj) {
     <html>
     <head>
         <title>
-            $(title)
+            ${title}
         </title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link href='/ui/style.css' ref='stylesheet' />
@@ -36,13 +36,13 @@ function createTemplate (dataobj) {
             </div>
             <hr>
             <h2>
-                $(heading)
+                ${heading}
             </h2>
             <h3>
-                $(author)
+                ${author}
             </h3>
             <div>
-               $(content)
+               ${content}
             </div>
         </div>
     </body>
