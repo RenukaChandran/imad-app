@@ -5,6 +5,24 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var article-one = {
+    title: "ARTICLE ONE",
+    heading: "HERE'S ARTICLE ONE!!!!",
+    author: "RENUKA CHANDRAN",
+    content: `
+         <p>
+                    this is article one.this tag has predefined styling applied.it has small font size compared to the h1 tag's default styling.but i have applied changes using style tag.
+         </p> `
+};
+
+function createtemplate (dataobj) {
+    var title = dataobj.title;
+    var heading = dataobj.heading;
+    var content = dataobj.content;
+    var htmltemplate = `
+    
+}    
+}
 app.get('/article-one',function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
