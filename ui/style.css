@@ -4,6 +4,13 @@ body {
     background-color: orchid; 
     margin-top: 75px;
 }
+.art1 {
+        max-width:800px;
+        margin:0 auto;
+        color: green;
+        font-family: sans-serif;
+        font-size: 50px;
+}
 
 .center {
     text-align: center;
