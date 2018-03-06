@@ -19,7 +19,7 @@ function createTemplate (dataobj) {
     var title = dataobj.title;
     var heading = dataobj.heading;
     var content = dataobj.content;
-
+    var author = dataobj.author;
     var htmlTemplate = `
     <html>
     <head>
